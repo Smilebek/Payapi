@@ -1,0 +1,48 @@
+.bussines-section {
+
+    margin-bottom: 96px;
+
+
+    .bussines-box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+
+        ul {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        li {
+            text-align: center;
+
+            h4 {
+                width: 350px;
+                color: #36536B;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 25px;
+                letter-spacing: -0.138px;
+                margin-bottom: 16px;
+            }
+
+            img {
+                margin-bottom: 32px;
+            }
+
+            p {
+                width: 350px;
+                color: #6C8294;
+                text-align: center;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 25px;
+                letter-spacing: -0.115px;
+            }
+        }
+    }
+}

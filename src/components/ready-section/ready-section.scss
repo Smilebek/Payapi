@@ -1,0 +1,48 @@
+.ready-section {
+    margin-bottom: 96px;
+
+    .ready-box {
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        h2 {
+            width: 445px;
+            color: #36536B;
+            font-size: 48px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 56px;
+            letter-spacing: -0.369px;
+        }
+
+       .ready-form {
+            width: 445px;
+            position: relative;
+
+            .ready-input {
+                width: 100%;
+                height: 48px;
+                color: #36536B;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                opacity: 0.5;
+                flex-shrink: 0;
+                padding: 16px 14px 20px 27px;
+                border-radius: 24px;
+                background: #fff;
+                border: none;
+                box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+            }
+
+            .ready-button_wrap {
+                position: absolute;
+                top: 0;
+                right: 0;
+            }
+        }
+    }
+}

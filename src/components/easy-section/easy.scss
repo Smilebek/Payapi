@@ -1,0 +1,38 @@
+.easy-section {
+
+
+    .easy-wrap {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .left-box img {
+        width: 650px;
+        height: 500px;
+
+    }
+
+    .right-box h2 {
+        width: 445px;
+        color: #36536B;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 56px;
+        letter-spacing: -0.369px;
+        margin-bottom: 24px;
+        font-family: 'DM Serif Display', serif;
+    }
+
+    .right-box p {
+        width: 445px;
+        color: #6C8294;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+    }   
+
+
+}

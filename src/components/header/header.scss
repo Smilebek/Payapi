@@ -1,0 +1,36 @@
+.header {
+    position: relative;
+    padding-top: 40px;
+    margin-bottom: 152px;
+
+    img {
+        width: 134px;
+        height: 37px;   
+    }
+
+    .header-left_box {
+        display: flex;
+        align-items: center;
+        gap: 0 64px;
+
+        ul {
+            display: flex;
+            align-items: center;
+            gap: 0 40px;
+        }
+
+        a {
+            color: #36536B;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+    }
+
+    .header-box_wrap {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
